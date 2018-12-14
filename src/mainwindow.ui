@@ -1,0 +1,1133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1350</width>
+    <height>755</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1350</width>
+    <height>755</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1350</width>
+    <height>755</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>9</pointsize>
+   </font>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>AffTools</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>-20</x>
+      <y>0</y>
+      <width>1388</width>
+      <height>761</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="page">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>620</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华康少女文字W5(P)</family>
+        <pointsize>21</pointsize>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="text">
+       <string>形</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>650</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华康少女文字W5(P)</family>
+        <pointsize>22</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Y坐标：</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>580</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华康少女文字W5(P)</family>
+        <pointsize>21</pointsize>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="text">
+       <string>图</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>700</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华康少女文字W5(P)</family>
+        <pointsize>21</pointsize>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="text">
+       <string>项</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>620</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华康少女文字W5(P)</family>
+        <pointsize>22</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>X坐标：</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>700</y>
+        <width>131</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华康少女文字W5(P)</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>清空图形</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>620</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华康少女文字W5(P)</family>
+        <pointsize>22</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>590</y>
+        <width>77</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QCheckBox" name="move_x_check">
+         <property name="font">
+          <font>
+           <family>华康少女文字W5(P)</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>x轴平移</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="move_y_check">
+         <property name="font">
+          <font>
+           <family>华康少女文字W5(P)</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>y轴平移</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="up_suofang">
+         <property name="font">
+          <font>
+           <family>华康少女文字W5(P)</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>上半缩放</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="down_suofang">
+         <property name="font">
+          <font>
+           <family>华康少女文字W5(P)</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>下半缩放</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="left_suofang">
+         <property name="font">
+          <font>
+           <family>华康少女文字W5(P)</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>左半缩放</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="right_suofang">
+         <property name="font">
+          <font>
+           <family>华康少女文字W5(P)</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>右半缩放</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>650</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华康少女文字W5(P)</family>
+        <pointsize>22</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>570</y>
+        <width>54</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华康少女文字W5(P)</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>   时间点</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>700</y>
+        <width>131</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华康少女文字W5(P)</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>清空谱面</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>1010</x>
+        <y>710</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华康少女文字W5(P)</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>复制全部</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>570</y>
+        <width>108</width>
+        <height>178</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <widget class="QSpinBox" name="time_point">
+         <property name="suffix">
+          <string> ms</string>
+         </property>
+         <property name="prefix">
+          <string/>
+         </property>
+         <property name="minimum">
+          <number>-999999999</number>
+         </property>
+         <property name="maximum">
+          <number>999999999</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="move_x_num">
+         <property name="prefix">
+          <string/>
+         </property>
+         <property name="minimum">
+          <double>-999999.000000000000000</double>
+         </property>
+         <property name="maximum">
+          <double>999999.000000000000000</double>
+         </property>
+         <property name="singleStep">
+          <double>0.010000000000000</double>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="move_y_num">
+         <property name="prefix">
+          <string/>
+         </property>
+         <property name="minimum">
+          <double>-999999.000000000000000</double>
+         </property>
+         <property name="maximum">
+          <double>999999.000000000000000</double>
+         </property>
+         <property name="singleStep">
+          <double>0.010000000000000</double>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="up_num">
+         <property name="suffix">
+          <string> 倍</string>
+         </property>
+         <property name="minimum">
+          <double>0.000000000000000</double>
+         </property>
+         <property name="maximum">
+          <double>99999.990000000005239</double>
+         </property>
+         <property name="singleStep">
+          <double>0.100000000000000</double>
+         </property>
+         <property name="value">
+          <double>1.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="down_num">
+         <property name="suffix">
+          <string> 倍</string>
+         </property>
+         <property name="maximum">
+          <double>99999.990000000005239</double>
+         </property>
+         <property name="singleStep">
+          <double>0.100000000000000</double>
+         </property>
+         <property name="value">
+          <double>1.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="left_num">
+         <property name="suffix">
+          <string> 倍</string>
+         </property>
+         <property name="maximum">
+          <double>99999.990000000005239</double>
+         </property>
+         <property name="singleStep">
+          <double>0.100000000000000</double>
+         </property>
+         <property name="value">
+          <double>1.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="right_num">
+         <property name="suffix">
+          <string> 倍</string>
+         </property>
+         <property name="maximum">
+          <double>99999.990000000005239</double>
+         </property>
+         <property name="singleStep">
+          <double>0.100000000000000</double>
+         </property>
+         <property name="value">
+          <double>1.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="ddd" name="widget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>0</y>
+        <width>980</width>
+        <height>560</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="tabletTracking">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit">
+      <property name="geometry">
+       <rect>
+        <x>1010</x>
+        <y>10</y>
+        <width>351</width>
+        <height>691</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>660</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华康少女文字W5(P)</family>
+        <pointsize>21</pointsize>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="text">
+       <string>选</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>560</y>
+        <width>171</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华康少女文字W5(P)</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>当前鼠标坐标：</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="text_to_pic">
+      <property name="geometry">
+       <rect>
+        <x>830</x>
+        <y>570</y>
+        <width>171</width>
+        <height>181</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华康少女文字W5(P)</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>←谱面转图形</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pic_to_text">
+      <property name="geometry">
+       <rect>
+        <x>650</x>
+        <y>570</y>
+        <width>171</width>
+        <height>181</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华康少女文字W5(P)</family>
+        <pointsize>20</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>图形转谱面→</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="geometry">
+       <rect>
+        <x>1240</x>
+        <y>710</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华康少女文字W5(P)</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>谱面处理</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <widget class="QCheckBox" name="duiqi">
+      <property name="geometry">
+       <rect>
+        <x>634</x>
+        <y>193</y>
+        <width>81</width>
+        <height>26</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华康少女文字W5(P)</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="statusTip">
+       <string>将时间点差距 xx ms的地面note和skynote对齐</string>
+      </property>
+      <property name="text">
+       <string>对齐误差</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textbefore">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>10</y>
+        <width>591</width>
+        <height>741</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="statusTip">
+       <string>粘贴你要处理的铺面</string>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;粘贴你要处理的谱面OvO&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="biansu">
+      <property name="geometry">
+       <rect>
+        <x>634</x>
+        <y>142</y>
+        <width>91</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华康少女文字W5(P)</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="statusTip">
+       <string>转换谱面为0.8x 1.1x 1.2x等倍数,音源加速问题请自行解决</string>
+      </property>
+      <property name="text">
+       <string>变速倍数</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="pingyitime">
+      <property name="geometry">
+       <rect>
+        <x>634</x>
+        <y>110</y>
+        <width>81</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="statusTip">
+       <string>输入平移时间，单位为ms</string>
+      </property>
+      <property name="suffix">
+       <string> ms</string>
+      </property>
+      <property name="minimum">
+       <number>-999999</number>
+      </property>
+      <property name="maximum">
+       <number>999999</number>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="jingxiang">
+      <property name="geometry">
+       <rect>
+        <x>634</x>
+        <y>260</y>
+        <width>91</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华康少女文字W5(P)</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="statusTip">
+       <string>镜像地面note和hold,蛇也会镜像,颜色也会改变</string>
+      </property>
+      <property name="text">
+       <string>镜像谱面</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="duiqitime">
+      <property name="geometry">
+       <rect>
+        <x>634</x>
+        <y>224</y>
+        <width>81</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="statusTip">
+       <string>输入误差时间，单位为ms</string>
+      </property>
+      <property name="suffix">
+       <string> ms</string>
+      </property>
+      <property name="minimum">
+       <number>-999999</number>
+      </property>
+      <property name="maximum">
+       <number>999999</number>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="linksnake">
+      <property name="geometry">
+       <rect>
+        <x>631</x>
+        <y>455</y>
+        <width>75</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华康少女文字W5(P)</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="statusTip">
+       <string>用S蛇连接多条同色蛇的始末</string>
+      </property>
+      <property name="text">
+       <string> 连接</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="process">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>290</y>
+        <width>111</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华康少女文字W5(P)</family>
+        <pointsize>17</pointsize>
+       </font>
+      </property>
+      <property name="statusTip">
+       <string>处理谱面，Go！</string>
+      </property>
+      <property name="text">
+       <string>处理→</string>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="textafter">
+      <property name="geometry">
+       <rect>
+        <x>733</x>
+        <y>10</y>
+        <width>631</width>
+        <height>691</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="statusTip">
+       <string>处理后的铺面</string>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;处理后的谱面会出现在这里喔_(:3&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="biansubeisu">
+      <property name="geometry">
+       <rect>
+        <x>634</x>
+        <y>170</y>
+        <width>81</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="statusTip">
+       <string>输入变速倍数</string>
+      </property>
+      <property name="suffix">
+       <string> 倍</string>
+      </property>
+      <property name="singleStep">
+       <double>0.100000000000000</double>
+      </property>
+      <property name="value">
+       <double>1.000000000000000</double>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="pingyi">
+      <property name="geometry">
+       <rect>
+        <x>634</x>
+        <y>80</y>
+        <width>101</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华康少女文字W5(P)</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="statusTip">
+       <string>将谱面整体平移 xx ms</string>
+      </property>
+      <property name="text">
+       <string>平移时间</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="geometry">
+       <rect>
+        <x>1010</x>
+        <y>710</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华康少女文字W5(P)</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>复制全部</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="geometry">
+       <rect>
+        <x>1240</x>
+        <y>710</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华康少女文字W5(P)</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>图形制作</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="splitsnake">
+      <property name="geometry">
+       <rect>
+        <x>631</x>
+        <y>485</y>
+        <width>75</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华康少女文字W5(P)</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="statusTip">
+       <string>用S蛇连接多条同色蛇的始末</string>
+      </property>
+      <property name="text">
+       <string> 拆分</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="split_num">
+      <property name="geometry">
+       <rect>
+        <x>667</x>
+        <y>512</y>
+        <width>50</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="minimum">
+       <number>1</number>
+      </property>
+      <property name="maximum">
+       <number>99999</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>625</x>
+        <y>512</y>
+        <width>54</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华康少女文字W5(P)</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>数量：</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="split_bili">
+      <property name="geometry">
+       <rect>
+        <x>667</x>
+        <y>540</y>
+        <width>50</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="suffix">
+       <string> %</string>
+      </property>
+      <property name="maximum">
+       <number>100</number>
+      </property>
+      <property name="singleStep">
+       <number>10</number>
+      </property>
+      <property name="value">
+       <number>50</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>625</x>
+        <y>540</y>
+        <width>54</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华康少女文字W5(P)</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>比例：</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="is_blackline">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>570</y>
+        <width>91</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华康少女文字W5(P)</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="statusTip">
+       <string>镜像地面note和hold,蛇也会镜像,颜色也会改变</string>
+      </property>
+      <property name="text">
+       <string>空白转换</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_13">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>40</y>
+        <width>81</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华康少女文字W5(P)</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>谱面选项：</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>650</x>
+        <y>410</y>
+        <width>81</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华康少女文字W5(P)</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>选项：</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_15">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>380</y>
+        <width>81</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>华康少女文字W5(P)</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string> 蛇和黑线</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>ddd</class>
+   <extends>QWidget</extends>
+   <header>ddd.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
